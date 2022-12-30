@@ -52,6 +52,6 @@ function dfs(k:number) {
     process.stdout.write("\n");
     let b = reverse(ans);
     if(b==ans.reverse()){console.log("The list is reversed!")}
-    let car: Car = {year: 12, model: "?"};
+    let car: Car = {year: 12, model: "Crown Car"};
     f(car);
 }

@@ -1,5 +1,5 @@
 function f(a) {
-    console.log(a.model);
+    console.log("Car name is " + a.model);
 }
 var a;
 (function (a) {
@@ -49,8 +49,8 @@ function dfs(k) {
     process.stdout.write("\n");
     var b = reverse(ans);
     if (b == ans.reverse()) {
-        console.log("works");
+        console.log("The list is reversed!");
     }
-    var car = { year: 12, model: "?" };
-    // f(car);
+    var car = { year: 12, model: "Crown Car" };
+    f(car);
 }
